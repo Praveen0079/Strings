@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CharacterFrequency {
-    
+     
     // Method to find the frequency of characters in a string
     public static int[][] findCharacterFrequency(String text) {
         int[] frequency = new int[256]; // ASCII character frequency array
