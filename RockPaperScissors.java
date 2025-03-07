@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RockPaperScissors {
-    // Method to get the computer's choice
+    // Method to get the computer's choice 
     public static String getComputerChoice() {
         String[] choices = {"Rock", "Paper", "Scissors"};
         Random rand = new Random();
