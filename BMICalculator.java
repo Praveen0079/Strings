@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class BMICalculator {
-    
+     
     // Method to calculate BMI and status
     public static String[][] calculateBMI(double[][] data) {
         String[][] result = new String[10][4];
