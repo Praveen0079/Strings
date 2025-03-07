@@ -5,7 +5,7 @@ public class WordsWithLengths {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
         String text = scanner.nextLine();
-
+ 
         String[][] wordsWithLengths = getWordsWithLengths(text);
         System.out.println("Word\tLength");
         for (String[] word : wordsWithLengths) {
