@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class VowelConsonantCount {
     // Method to check if a character is a vowel, consonant, or not a letter
     public static String checkCharacter(char ch) {
-        ch = Character.toLowerCase(ch);
+        ch = Character.toLowerCase(ch); 
         if (ch >= 'a' && ch <= 'z') {
             if ("aeiou".indexOf(ch) != -1) {
                 return "Vowel";
