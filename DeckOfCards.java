@@ -5,7 +5,7 @@ public class DeckOfCards {
 
     // Suits and Ranks for the deck
     private static final String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
-    private static final String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
+    private static final String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"  };
 
     // Total number of cards in the deck
     private static final int numOfCards = suits.length * ranks.length;
