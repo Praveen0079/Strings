@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StringLengthWithoutBuiltIn {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
+        System.out.print("Enter a string: "); 
         String text = scanner.next();
 
         int length1 = findLength(text);
