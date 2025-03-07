@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class IllegalArgumentExceptionDemo {
     
     // Method to generate IllegalArgumentException
-    public static void generateException(String text) {
+    public static void generateException(String text) { 
         System.out.println(text.substring(5, 2)); // This will throw IllegalArgumentException
     }
 
