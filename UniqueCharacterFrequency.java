@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class UniqueCharacterFrequency {
-
+ 
     // Method to find unique characters in a string
     public static char[] uniqueCharacters(String text) {
         int length = text.length();
