@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class UniqueCharactersFinder {
-    
+     
     // Method to find the length of the string without using length()
     public static int findStringLength(String text) {
         int length = 0;
