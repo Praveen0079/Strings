@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CompareTwoStrings2{
-
+ 
 	// making string into char array
 	static char[] charArray(String text){
 		char[] charArray = new char[text.length()];
