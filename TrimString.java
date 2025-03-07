@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TrimString {
     // Method to trim leading and trailing spaces using charAt()
     public static int[] findTrimIndices(String str) {
-        int start = 0, end = str.length() - 1;
+        int start = 0, end = str.length() - 1; 
         while (start <= end && str.charAt(start) == ' ') {
             start++;
         }
