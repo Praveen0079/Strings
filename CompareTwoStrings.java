@@ -1,27 +1,34 @@
 import java.util.Scanner;
 
-public class CompareTwoStrings {
+public class SubstringComparison {
     
-    // creating a substring using charAt()
+    // Method to create substring using charAt()
     public static String createSubstring(String text, int start, int end) {
-        StringBuilder sb = new StringBuilder();
+        String substring = "";
         for (int i = start; i < end; i++) {
-            sb.append(text.charAt(i));
+            substring += text.charAt(i);
         }
-        return sb.toString();
+        return substring;
     }
-
-    // Method to compare two strings
-    public static boolean compareStrings(String str1, String str2) {
-        return str1.equals(str2);
+    
+    // Method to compare two strings using charAt()
+    public static boolean compareStrings(String s1, String s2) {
+        if (s1.length() != s2.length()) {
+            return false;
+        }
+        for (int i = 0; i < s1.length(); i++) {
+            if (s1.charAt(i) != s2.charAt(i)) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Taking user input
         System.out.print("Enter a string: ");
-        String text = scanner.nextLine();
+        String text = scanner.next();
         
         System.out.print("Enter start index: ");
         int start = scanner.nextInt();
@@ -29,18 +36,18 @@ public class CompareTwoStrings {
         System.out.print("Enter end index: ");
         int end = scanner.nextInt();
         
-        // Getting substring using charAt()
-        String substringCharAt = createSubstring(text, start, end);
+        // Creating substring using charAt()
+        String substring1 = createSubstring(text, start, end);
         
-        // Getting substring using built-in substring() method
-        String substringBuiltIn = text.substring(start, end);
+        // Creating substring using built-in method
+        String substring2 = text.substring(start, end);
         
         // Comparing both substrings
-        boolean areEqual = compareStrings(substringCharAt, substringBuiltIn);
+        boolean areEqual = compareStrings(substring1, substring2);
         
         // Display results
-        System.out.println("Substring using charAt(): " + substringCharAt);
-        System.out.println("Substring using substring(): " + substringBuiltIn);
+        System.out.println("Substring using charAt(): " + substring1);
+        System.out.println("Substring using substring(): " + substring2);
         System.out.println("Are both substrings equal? " + areEqual);
         
     }
