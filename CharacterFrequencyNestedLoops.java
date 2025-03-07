@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class CharacterFrequencyNestedLoops {
 
     // Method to find the frequency of characters using nested loops
