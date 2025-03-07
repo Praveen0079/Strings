@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PalindromeChecker {
-
+ 
     // Logic 1: Compare characters from start and end using iteration
     public static boolean isPalindromeIterative(String text) {
         int start = 0, end = text.length() - 1;
