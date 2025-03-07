@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class VotingEligibility {
     // Method to generate random ages for n students
-    public static int[] generateAges(int n) {
+    public static int[] generateAges(int n) { 
         Random rand = new Random();
         int[] ages = new int[n];
         for (int i = 0; i < n; i++) {
