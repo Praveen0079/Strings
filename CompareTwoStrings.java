@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SubstringComparison {
+public class CompareTwoStrings {
     
     // creating a substring using charAt()
     public static String createSubstring(String text, int start, int end) {

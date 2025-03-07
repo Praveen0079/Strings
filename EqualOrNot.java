@@ -25,4 +25,4 @@ public class EqualOrNot {
         }
         else System.out.println("Not Equal , length is not same");
     }
-}6
+}
