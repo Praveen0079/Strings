@@ -2,7 +2,7 @@ public class NullPointerDemo {
     
     // Method to generate NullPointerException
     public static void generateException() {
-        String text = null;
+        String text = null; 
         System.out.println(text.length()); // This will throw NullPointerException
     }
 
