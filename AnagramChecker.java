@@ -10,7 +10,7 @@ public class AnagramChecker {
 
         // If lengths are not equal, they cannot be anagrams
         if (text1.length() != text2.length()) {
-            return false;
+            return false; 
         }
 
         // Create frequency arrays for both texts (256 ASCII characters)
