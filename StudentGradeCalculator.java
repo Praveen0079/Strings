@@ -3,7 +3,7 @@ import java.util.Random;
 public class StudentGradeCalculator {
     static final int NUM_STUDENTS = 10;
     static final int NUM_SUBJECTS = 3;
-
+ 
     // Method to generate random 2-digit scores for PCM subjects
     public static int[][] generateScores() {
         Random rand = new Random();
