@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class FirstNonRepeatingCharacter {
-    
+     
     // Method to find the first non-repeating character in a string
     public static char findFirstNonRepeatingChar(String text) {
         int[] frequency = new int[256]; // ASCII character frequency array
