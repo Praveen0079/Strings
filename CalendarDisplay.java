@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CalendarDisplay {
-
+ 
     // Array to store month names
     private static final String[] months = {
         "January", "February", "March", "April", "May", "June",
