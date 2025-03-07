@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberFormatExceptionDemo {
     
     // Method to generate NumberFormatException
-    public static void generateException(String text) {
+    public static void generateException(String text) { 
         int number = Integer.parseInt(text); // This will throw NumberFormatException if input is not a valid number
         System.out.println("Converted number: " + number);
     }
