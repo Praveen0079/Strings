@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CountVowelsConsonants{
 	
 	static void Count(String text){
-		text = text.toLowerCase();  // converting string to lowercase
+		text = text.toLowerCase();  // converting string to lowercase 
 		int vowels = 0;
 		int consonants = 0;
 		for(int i =0;i<text.length();i++){
