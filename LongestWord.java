@@ -4,7 +4,7 @@ public class LongestWord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
-        String sentence = scanner.nextLine();
+        String sentence = scanner.nextLine(); 
         String[] words = sentence.split(" ");
         String longestWord = "";
 
