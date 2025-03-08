@@ -5,7 +5,7 @@ public class MostFrequentCharacter {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        int[] frequency = new int[256];
+        int[] frequency = new int[256]; 
         char mostFrequentChar = ' ';
         int maxFrequency = 0;
 
