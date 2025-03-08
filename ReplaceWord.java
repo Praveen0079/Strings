@@ -6,7 +6,7 @@ public class ReplaceWord {
         System.out.print("Enter a sentence: ");
         String sentence = scanner.nextLine();
         System.out.print("Enter word to replace: ");
-        String oldWord = scanner.nextLine();
+        String oldWord = scanner.nextLine(); 
         System.out.print("Enter new word: ");
         String newWord = scanner.nextLine();
 
